@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F143396120F84532000CA01F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F143396020F84532000CA01F /* AppDelegate.m */; };
+		F143396420F84532000CA01F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F143396320F84532000CA01F /* ViewController.m */; };
+		F143396720F84532000CA01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F143396520F84532000CA01F /* Main.storyboard */; };
+		F143396920F84533000CA01F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F143396820F84533000CA01F /* Assets.xcassets */; };
+		F143396C20F84533000CA01F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F143396A20F84533000CA01F /* LaunchScreen.storyboard */; };
+		F143396F20F84534000CA01F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F143396E20F84534000CA01F /* main.m */; };
+		F143397920F84534000CA01F /* CustomTableViewCellDeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F143397820F84534000CA01F /* CustomTableViewCellDeleteTests.m */; };
+		F143398420F84534000CA01F /* CustomTableViewCellDeleteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F143398320F84534000CA01F /* CustomTableViewCellDeleteUITests.m */; };
+		F143399320F85330000CA01F /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F143399220F85330000CA01F /* CustomTableViewCell.m */; };
+		F143399620F89BD2000CA01F /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F143399520F89BD2000CA01F /* NSObject+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F143397520F84534000CA01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F143395420F84532000CA01F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F143395B20F84532000CA01F;
+			remoteInfo = CustomTableViewCellDelete;
+		};
+		F143398020F84534000CA01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F143395420F84532000CA01F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F143395B20F84532000CA01F;
+			remoteInfo = CustomTableViewCellDelete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F143395C20F84532000CA01F /* CustomTableViewCellDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableViewCellDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F143395F20F84532000CA01F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F143396020F84532000CA01F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F143396220F84532000CA01F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F143396320F84532000CA01F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F143396620F84532000CA01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F143396820F84533000CA01F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F143396B20F84533000CA01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F143396D20F84533000CA01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F143396E20F84534000CA01F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F143397420F84534000CA01F /* CustomTableViewCellDeleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewCellDeleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F143397820F84534000CA01F /* CustomTableViewCellDeleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCellDeleteTests.m; sourceTree = "<group>"; };
+		F143397A20F84534000CA01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F143397F20F84534000CA01F /* CustomTableViewCellDeleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewCellDeleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F143398320F84534000CA01F /* CustomTableViewCellDeleteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCellDeleteUITests.m; sourceTree = "<group>"; };
+		F143398520F84534000CA01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F143399120F85330000CA01F /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		F143399220F85330000CA01F /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		F143399420F89BD2000CA01F /* NSObject+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		F143399520F89BD2000CA01F /* NSObject+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F143395920F84532000CA01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F143397120F84534000CA01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F143397C20F84534000CA01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F143395320F84532000CA01F = {
+			isa = PBXGroup;
+			children = (
+				F143395E20F84532000CA01F /* CustomTableViewCellDelete */,
+				F143397720F84534000CA01F /* CustomTableViewCellDeleteTests */,
+				F143398220F84534000CA01F /* CustomTableViewCellDeleteUITests */,
+				F143395D20F84532000CA01F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F143395D20F84532000CA01F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F143395C20F84532000CA01F /* CustomTableViewCellDelete.app */,
+				F143397420F84534000CA01F /* CustomTableViewCellDeleteTests.xctest */,
+				F143397F20F84534000CA01F /* CustomTableViewCellDeleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F143395E20F84532000CA01F /* CustomTableViewCellDelete */ = {
+			isa = PBXGroup;
+			children = (
+				F143395F20F84532000CA01F /* AppDelegate.h */,
+				F143396020F84532000CA01F /* AppDelegate.m */,
+				F143396220F84532000CA01F /* ViewController.h */,
+				F143396320F84532000CA01F /* ViewController.m */,
+				F143399120F85330000CA01F /* CustomTableViewCell.h */,
+				F143399220F85330000CA01F /* CustomTableViewCell.m */,
+				F143399420F89BD2000CA01F /* NSObject+Category.h */,
+				F143399520F89BD2000CA01F /* NSObject+Category.m */,
+				F143396520F84532000CA01F /* Main.storyboard */,
+				F143396820F84533000CA01F /* Assets.xcassets */,
+				F143396A20F84533000CA01F /* LaunchScreen.storyboard */,
+				F143396D20F84533000CA01F /* Info.plist */,
+				F143396E20F84534000CA01F /* main.m */,
+			);
+			path = CustomTableViewCellDelete;
+			sourceTree = "<group>";
+		};
+		F143397720F84534000CA01F /* CustomTableViewCellDeleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F143397820F84534000CA01F /* CustomTableViewCellDeleteTests.m */,
+				F143397A20F84534000CA01F /* Info.plist */,
+			);
+			path = CustomTableViewCellDeleteTests;
+			sourceTree = "<group>";
+		};
+		F143398220F84534000CA01F /* CustomTableViewCellDeleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F143398320F84534000CA01F /* CustomTableViewCellDeleteUITests.m */,
+				F143398520F84534000CA01F /* Info.plist */,
+			);
+			path = CustomTableViewCellDeleteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F143395B20F84532000CA01F /* CustomTableViewCellDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F143398820F84534000CA01F /* Build configuration list for PBXNativeTarget "CustomTableViewCellDelete" */;
+			buildPhases = (
+				F143395820F84532000CA01F /* Sources */,
+				F143395920F84532000CA01F /* Frameworks */,
+				F143395A20F84532000CA01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTableViewCellDelete;
+			productName = CustomTableViewCellDelete;
+			productReference = F143395C20F84532000CA01F /* CustomTableViewCellDelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F143397320F84534000CA01F /* CustomTableViewCellDeleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F143398B20F84534000CA01F /* Build configuration list for PBXNativeTarget "CustomTableViewCellDeleteTests" */;
+			buildPhases = (
+				F143397020F84534000CA01F /* Sources */,
+				F143397120F84534000CA01F /* Frameworks */,
+				F143397220F84534000CA01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F143397620F84534000CA01F /* PBXTargetDependency */,
+			);
+			name = CustomTableViewCellDeleteTests;
+			productName = CustomTableViewCellDeleteTests;
+			productReference = F143397420F84534000CA01F /* CustomTableViewCellDeleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F143397E20F84534000CA01F /* CustomTableViewCellDeleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F143398E20F84534000CA01F /* Build configuration list for PBXNativeTarget "CustomTableViewCellDeleteUITests" */;
+			buildPhases = (
+				F143397B20F84534000CA01F /* Sources */,
+				F143397C20F84534000CA01F /* Frameworks */,
+				F143397D20F84534000CA01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F143398120F84534000CA01F /* PBXTargetDependency */,
+			);
+			name = CustomTableViewCellDeleteUITests;
+			productName = CustomTableViewCellDeleteUITests;
+			productReference = F143397F20F84534000CA01F /* CustomTableViewCellDeleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F143395420F84532000CA01F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = JingBei;
+				TargetAttributes = {
+					F143395B20F84532000CA01F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F143397320F84534000CA01F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F143395B20F84532000CA01F;
+					};
+					F143397E20F84534000CA01F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F143395B20F84532000CA01F;
+					};
+				};
+			};
+			buildConfigurationList = F143395720F84532000CA01F /* Build configuration list for PBXProject "CustomTableViewCellDelete" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F143395320F84532000CA01F;
+			productRefGroup = F143395D20F84532000CA01F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F143395B20F84532000CA01F /* CustomTableViewCellDelete */,
+				F143397320F84534000CA01F /* CustomTableViewCellDeleteTests */,
+				F143397E20F84534000CA01F /* CustomTableViewCellDeleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F143395A20F84532000CA01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F143396C20F84533000CA01F /* LaunchScreen.storyboard in Resources */,
+				F143396920F84533000CA01F /* Assets.xcassets in Resources */,
+				F143396720F84532000CA01F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F143397220F84534000CA01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F143397D20F84534000CA01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F143395820F84532000CA01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F143396420F84532000CA01F /* ViewController.m in Sources */,
+				F143396F20F84534000CA01F /* main.m in Sources */,
+				F143399620F89BD2000CA01F /* NSObject+Category.m in Sources */,
+				F143399320F85330000CA01F /* CustomTableViewCell.m in Sources */,
+				F143396120F84532000CA01F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F143397020F84534000CA01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F143397920F84534000CA01F /* CustomTableViewCellDeleteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F143397B20F84534000CA01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F143398420F84534000CA01F /* CustomTableViewCellDeleteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F143397620F84534000CA01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F143395B20F84532000CA01F /* CustomTableViewCellDelete */;
+			targetProxy = F143397520F84534000CA01F /* PBXContainerItemProxy */;
+		};
+		F143398120F84534000CA01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F143395B20F84532000CA01F /* CustomTableViewCellDelete */;
+			targetProxy = F143398020F84534000CA01F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F143396520F84532000CA01F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F143396620F84532000CA01F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F143396A20F84533000CA01F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F143396B20F84533000CA01F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F143398620F84534000CA01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F143398720F84534000CA01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F143398920F84534000CA01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomTableViewCellDelete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vczhushou.jingbei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "582621ad-c9e5-436e-8189-e398361eb614";
+				PROVISIONING_PROFILE_SPECIFIER = DeveloperVCzhushou180403;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F143398A20F84534000CA01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CustomTableViewCellDelete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vczhushou.jingbei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F143398C20F84534000CA01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomTableViewCellDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.main.CustomTableViewCellDeleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTableViewCellDelete.app/CustomTableViewCellDelete";
+			};
+			name = Debug;
+		};
+		F143398D20F84534000CA01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomTableViewCellDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.main.CustomTableViewCellDeleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTableViewCellDelete.app/CustomTableViewCellDelete";
+			};
+			name = Release;
+		};
+		F143398F20F84534000CA01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomTableViewCellDeleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.main.CustomTableViewCellDeleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomTableViewCellDelete;
+			};
+			name = Debug;
+		};
+		F143399020F84534000CA01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomTableViewCellDeleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.main.CustomTableViewCellDeleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomTableViewCellDelete;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F143395720F84532000CA01F /* Build configuration list for PBXProject "CustomTableViewCellDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F143398620F84534000CA01F /* Debug */,
+				F143398720F84534000CA01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F143398820F84534000CA01F /* Build configuration list for PBXNativeTarget "CustomTableViewCellDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F143398920F84534000CA01F /* Debug */,
+				F143398A20F84534000CA01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F143398B20F84534000CA01F /* Build configuration list for PBXNativeTarget "CustomTableViewCellDeleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F143398C20F84534000CA01F /* Debug */,
+				F143398D20F84534000CA01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F143398E20F84534000CA01F /* Build configuration list for PBXNativeTarget "CustomTableViewCellDeleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F143398F20F84534000CA01F /* Debug */,
+				F143399020F84534000CA01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F143395420F84532000CA01F /* Project object */;
+}
